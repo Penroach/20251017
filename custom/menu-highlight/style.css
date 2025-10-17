@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+body {
+    background-image: url('bg.png'); /* Make sure the filename matches what you saved */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the image stationary on scroll */
+    margin: 0;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+     position: fixed;
+     width: 250px;
+     background: #ecc23d;
+}
+header h1{
+    padding: 70px 25px;
+    color: #de7e27;
+    font-size: 2.5em;
+    line-height: 1.1em;
+    font-weight: bold;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+    margin-bottom: 1px;
+}
+
+nav a {
+    display: block;
+    padding: 25px;
+    font-weight: bold;
+    color: #ecc23d;
+    background: #de7e27;
+    text-decoration: none;
+}
+
+nav li.current a{
+    color: #fff
+}
+
+main {
+    padding: 70px 25px 10px 275px;
+    background: rgba(255, 255, 255, 0.9); /* White with 90% opacity */
+    /* You could also add a subtle border or box-shadow for more definition */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for lift */
+}
+
+section {
+    margin-bottom: 100px
+}
+
+section h2 {
+    color: #de7e27;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+p {
+    margin-bottom: 30px;
+    line-height: 2;
+    color: #343752
+}
